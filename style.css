@@ -82,7 +82,7 @@ tbody {
     background-image: url("cleanedShop.PNG");
     background-size: 100%;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: scroll;
     height: 250px;
 }
 
