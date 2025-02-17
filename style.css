@@ -80,7 +80,7 @@ tbody {
 
 .jumbotron {
     background-image: url("DD-Stripe-Grunge-Background-44012-Preview.jpg");
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     background-attachment: scroll;
     height: 250px;
