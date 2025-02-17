@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ricco - The Stache Barbershop</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap"
+            rel="stylesheet">
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+            crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-md bg-dark sticky-top" data-bs-theme="dark">
+            <div class="container">
+
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvas"
+                    aria-controls="offcanvas"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div
+                    class="offcanvas offcanvas-end"
+                    tabindex="-1"
+                    id="offcanvas"
+                    aria-labelledby="offcanvasLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasLabel">Aperture</h5>
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav flex-grow-1 justify-content-evenly">
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://maps.app.goo.gl/RWX2cBQNJh59ECrz7">
+                                    <svg class="bi" width="24" height="24">
+                                        <use xlink:href="#aperture"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link glow2" href="https://maps.app.goo.gl/RWX2cBQNJh59ECrz7">Directions</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link glow2" href="#target1">Prices</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link glow2" href="#target2">About</a>
+                            </li>
+                            <!-- <li class="nav-item">
+                                <a class="nav-link" href="#">Enterprise</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Support</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Pricing</a>
+                            </li> -->
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    <svg class="bi" width="24" height="24">
+                                        <use xlink:href="#cart"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="bodydiv">
+
+            <div class="px-4 topdiv  pt-3 pb-1 text-center">
+                <h1 class="display-5  mt-1 dm-serif-text-regular glow text-dark">The Stache Barbershop</h1>
+            </div>
+
+            <hr style="width: 95%; margin-left: auto; margin-right: auto;">
+            <hr style="width: 75%; margin-left: auto; margin-right: auto;">
+
+            <div class="container col-xxl-8 my-3 px-4" id="target2">
+                <div class="row align-items-center g-5 py-5">
+                    <div class="col-md-6 col-lg-6 col-sm-6" style="order: 1;">
+                        <img
+                            src="./20250128_173837884_iOS.jpg"
+                            class="d-block mx-lg-auto img-fluid"
+                            style="border-radius: 10px;"
+                            alt="Bootstrap Themes"
+                            width="350"
+                            height="100"
+                            loading="lazy">
+                    </div>
+                    <div class="col-md-6 tar2 col-lg-6 col-sm-6">
+                        <h2 class="display-5 fw-bold text-center lh-1 mb-3">Barber Ricco</h2>
+                        <p class="lead aboutMe">
+                            With over 15 years of experience as a barber, I have developed a keen eye for
+                            style and precision. My passion for the craft shines through in every cut I
+                            deliver. When I'm not at the barbershop, I cherish spending quality time with my
+                            family, creating wonderful memories together.
+                        </p>
+                        <div class="d-grid gap-2 d-md-flex justify-content-center">
+                            <script
+                                type="text/javascript"
+                                src="https://booksy.com/widget/code.js?id=1324945&country=us&lang=en"></script>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <hr style="width: 75%; margin-left: auto; margin-right: auto;" id="target1">
+
+            <div class="container pricelist marketing my-5">
+                <div class="table-responsive">
+                    <table class="table dm-serif-text-regular text-center">
+                        <tbody>
+                            <tr>
+                                <th scope="row" class="text-start bg-transparent text-body">Haircut</th>
+                                <td class="bg-transparent text-body">
+                                    $34.99
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="text-start bg-transparent text-body">Senior citizen 65 years old or older</th>
+                                <td class="bg-transparent text-body">$25.00</td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="text-start bg-transparent text-body">Active military</th>
+                                <td class="bg-transparent text-body">
+                                    $29.99
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="text-start bg-transparent text-body">Beard</th>
+                                <td class="bg-transparent text-body">$15.00</td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="text-start bg-transparent text-body">Haircut and beard trim</th>
+                                <td class="bg-transparent text-body">$44.99</td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <hr style="width: 75%; margin-left: auto; margin-right: auto;">
+
+            <div class="container my-5">
+                <div
+                    class="p-5 jumbotron text-center bg-body-tertiary rounded-3"
+                    style="border: 2px solid black;"></div>
+            </div>
+
+            <div class="container px-5 pt-5 text-center">
+                <h3 class="display-5 fw-bold  text-body-emphasis">
+                    <a
+                        href="https://maps.app.goo.gl/VfbDDtsoZR8QTGrX6"
+                        style="text-decoration: none;">Directions</a>
+                </h3>
+                <div class="col-lg-6 mx-auto">
+                    <p class="lead mb-4">
+                        <b>
+                            <b>1)</b>
+                            Exit 130 on I-95:</b>
+                        Take exit 130 for Route 3 North.
+                        <br>
+                        <b>
+                            <b>2)</b>
+                            Continue on Route 3 North:</b>
+                        Follow Route 3 North for about 3 miles.
+                        <br>
+                        <b>
+                            <b>3)</b>
+                            Turn Right onto Plank Road:</b>
+                        Continue on Plank Road for about 1 mile.
+                        <br>
+                        <b>
+                            <b>4)</b>
+                            Arrive at The Stache Barber Shop:</b>
+                        The Stache Barber Shop will be on your left at
+                        <u>4500 Plank Road</u>, Fredericksburg, VA 22407.
+                        <br>
+                    </p>
+
+                </div>
+
+                <div class="overflow-hidden map" style="max-height: 50vh;">
+                    <div class="container">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3131.61094908279!2d-77.54008662515648!3d38.28851048240289!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b6c05d138ee839%3A0xbe811e26f5dca272!2sThe%20Stache%20Barber%20Shop!5e0!3m2!1sen!2sus!4v1738665501638!5m2!1sen!2sus"
+                            class="rounded-5"
+                            width="500"
+                            height="200"
+                            allowfullscreen=""
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+
+            <footer
+                class="d-flex flex-wrap justify-content-between align-items-center py-3">
+                <div class="col-md-4 d-flex align-items-center">
+                    <a
+                        href="/"
+                        class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+                        <svg class="bi" width="30" height="24">
+                            <use xlink:href="#bootstrap"></use>
+                        </svg>
+                    </a>
+                    <span class="mb-3 mb-md-0 dm-serif-text-regular">© Ricco @ The Stache Barbershop</span>
+                </div>
+
+                <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                    <li class="ms-3">
+                        <a
+                            class="text-body-secondary"
+                            href="https://www.facebook.com/stachebarbershopfxbg/">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="24"
+                                height="24"
+                                fill="Color"
+                                class="bi bi-facebook"
+                                viewBox="0 0 16 16">
+                                <path
+                                    d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="ms-3">
+                        <a class="text-body-secondary" href="#"></a>
+                    </li>
+                    <li class="ms-3">
+                        <a class="text-body-secondary" href="#"></a>
+                    </li>
+                </ul>
+            </footer>
+
+            <script
+                src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+                crossorigin="anonymous"></script>
+
+        </div>
+    </body>
+</html>

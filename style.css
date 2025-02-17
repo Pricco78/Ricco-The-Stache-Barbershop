@@ -1,0 +1,147 @@
+/*Photo by <a href="https://unsplash.com/@salaheregouane?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Salah Regouane</a> on <a href="https://unsplash.com/photos/a-close-up-of-a-lighter-on-a-table-cFtUyJS0v20?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+      
+*/
+
+body {
+    background-color: #F8EDE3;
+    /* background-image: url("blackandwhite.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 75% 
+ */
+}
+.content {
+    position: relative;
+    z-index: 1; /* Ensures that content is above the background */
+}
+
+.dm-serif-text-regular {
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.glow {
+    font-size: 36px;
+    text-shadow: 0 0 10px #F3EFE0, 0 0 20px #F3EFE0, 0 0 30px #F3EFE0;
+    padding: 20px;
+    margin-bottom: 4.5rem !important;
+}
+
+.glow2 {
+    font-size: 1.5rem;
+    text-shadow: 0 0 10px black, 0 0 10px black;
+    padding: 10px;
+}
+
+.navbar {
+    background-color: #434242 !important;
+}
+
+.sticky-top {
+    gap: 20px !important;
+}
+.sticky-top header li {
+    text-shadow: 0.5px 0.5px 0.5px #E3C4A8;
+}
+.topdiv {
+    background-color: #434242;
+    /* background-image: url("vecteezy_seamless-pattern-with-high-detailed-barber-shop-supplies_.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 100% 100%;
+    /* display: flex; */
+    justify-content: center;
+}
+
+.topdiv h1 {
+    font-size: clamp(1rem, 5vw + 2rem, 8rem);
+}
+.pole {
+    border-radius: 10px;
+}
+.pricelist {
+    width: 78rem;
+    opacity: 90%;
+}
+
+ul {
+    font-size: 1.15rem;
+}
+.container {
+    width: 100%;
+}
+
+tbody {
+    font-size: 1.75rem;
+}
+
+.jumbotron {
+    background-image: url("cleanedShop.PNG");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 250px;
+}
+
+.jumbotron h1 {
+    font-size: 3rem;
+    color: #F3EFE0 !important;
+    text-shadow: 0 0 10px #22A39F, 0 0 20px #434242, 0 0 30px #434242;
+
+}
+
+.map iframe {
+    width: 100%;
+    border: 1px solid #434242;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #434242;
+}
+
+footer span {
+    color: black;
+}
+@media (min-width: 1200px) {
+    .map iframe {
+        width: 100%;
+        height: 30rem;
+    }
+}
+@media (max-width: 768PX) {
+    #target2 img {
+        height: 18rem;
+        width: auto;
+    }
+    .lead {
+        font-size: 1rem;
+    }
+    tbody {
+        font-size: 1.75rem;
+    }
+    .map iframe {
+        width: 100%;
+        height: 15rem;
+        border-bottom-right-radius: 0 !important;
+        border-bottom-left-radius: 0 !important;
+        margin-bottom: 0 !important;
+        padding-bottom: 0 !important;
+    }
+}
+@media (max-width: 576px) {
+    #target2 {
+        text-align: center;
+        justify-content: center;
+    }
+    #target2 img {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    tbody {
+        font-size: 1.5rem;
+    }
+}
